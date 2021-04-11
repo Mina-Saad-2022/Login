@@ -1,0 +1,266 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+body
+{
+    background: url(https://www.jamesedition.com/stories/wp-content/uploads/2018/02/8f35ba26fe296e36b3a96ee5416259b4.jpg) 50% 50% no-repeat;
+
+    background-size:cover;
+    display: table;
+}
+/*
+.container
+{
+    width: 1400px;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 15px;
+} 
+
+.List li
+{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    display: inline-block;
+    margin-right: 20px; 
+}
+.List li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 30px;
+    width: 900px;
+    margin-right:70px;
+}
+.List li a:hover
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #55FB00;
+    padding: 20px 30px;
+    width: 900px;
+    margin-right:70px;
+    background-color: #E10041;
+    border-radius: 125%;
+}
+
+.signin-li
+{
+    text-decoration: underline;
+}
+*/
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-left: 10px;
+}
+ul li 
+{
+    float: left;
+    width: 250px;
+    height: 60px;
+    background-color: #000;
+    opacity: .8;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover
+{
+    background-color: #E6EC0C;
+    background-size: 5px;
+    color: #000;
+    
+}
+ul li ul li
+{
+    display: none;
+
+   
+
+
+}
+ul li:hover ul li
+{
+    display: block;
+    width: 200px;
+   
+}
+
+.sig-in
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+/*
+h2
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+input
+{
+    display: block;
+    width: 320px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    padding-left:10px;
+    border-left:px;
+    color: #FED003;
+    border-color: #FFFF;
+    border-radius: 5px;
+
+}
+button
+{
+    width: 150px;
+    height: 50px;
+    font-size: 35px;
+    background: #E10041;
+    font-weight: lighter;
+    color: #FFF;
+    border: 0px;
+    border-radius: 5px;
+    margin-left:25%;
+    font-family: initial;
+    
+}
+button:hover
+{
+    width: 150px;
+    height: 50px;
+    font-size: 35px;
+    background: #d2e603;
+    font-weight: lighter;
+    color: #E10041;
+    border: 15px;
+    border-radius: 5px;
+    margin-left:25%;
+    font-family: initial;
+    
+}
+.sub-one
+{
+    display: none;
+}
+.List li a:hover .sub-one
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+*/
+.from-box
+{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #A5A69E;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-box
+{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input-box input
+{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #E6EC0C;
+    font-size: 15px;
+}
+
+::placeholder
+{
+    color: #fff ;
+}
+.fa
+{
+    margin-right: 10px;
+}
+.eye
+{
+    position: absolute;
+}
+#hide1
+{
+    display: none;
+}
+.login-btn
+{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px;
+    border: 1px solid#fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+.login-btn:hover
+{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px;
+    border: 1px solid#fff;
+    cursor: pointer;
+    background: rgba(0, 10, 15, 0.70);
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.ofers
+{
+    display: none;
+}
+.head ul li:hover .ofers
+{
+    display: block;
+    position: absolute;
+
+}

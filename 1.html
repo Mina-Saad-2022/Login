@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8" />
+  <title>wild animals</title>
+  <link rel="shortcut icon" href="https://www.flaticon.com/svg/static/icons/svg/141/141850.svg">
+
+  <link rel="stylesheet" href="./1.css" />
+  <link rel="stylesheet" href="./normalize.css" />
+  <link rel="stylesheet" href="../الصفحة الرئيسية والاولي في الموقع/fontawesome-free-5.14.0-web/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <!--
+    <div>
+      <div class="container">
+        <nav class="Listmenio">
+          <ul class="List">
+            <li class="signin-li"><a href="./1.html" style="color: #d2e603"><i class="fas fa-sign-in-alt"></i> Sign
+                up</a>
+              <div class="sub-one">
+                <ul>
+                  <li><a href="#">new account</a></li>
+                  <li><a href="#">Logint</a></li>
+                </ul>
+              </div>
+
+
+            </li>
+            <li><a href="#"><i class="fas fa-home"></i> Homepage</a></li>
+            <li><a href="./hopepage.html""><i class=" fas fa-info-circle"></i> informations</a></li>
+            <li><a href="#"><i class="fas fa-address-card"></i> About Us</a></li>
+            <li><a href="#"><i class="fas fa-comments"></i> Communication</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+-->
+<div class="head">
+  <ul>
+   
+ 
+   
+     <li><a href="#"><i class="fas fa-address-card"></i> معلومات عنا</a>
+       <ul>
+       <li><a href="#">فريق العمل</a> </li>
+       <li><a href="#">مواقع مساعدة</a> </li>
+     </ul>
+   </li>
+       <li><a href="#"><i class="fas fa-comments"></i> للتواصل معنا</a>
+     <ul>
+       <li><a href="#"> الأتصال بنا</a> </li>
+       <li><a href="#">للملاحظات والأستفسارات</a> </li>
+       <li><a href="#">للتقدم بشكوي</a> </li>
+     </ul>
+   </li>
+   <li><a href="#"><i class="fas fa-info-circle"></i> للأستعلام عن </a>
+    <ul>
+      <li><a href="#">مراكز الخدمة</a> </li>
+      <li><a href="#">العروض</a> 
+        <!--
+        <li><a href="#">العروض اليومية</a></li>
+        <li><a href="#">العروض الأسبوعية</a></li>
+        <li><a href="#">العروض الشهرية</a></li>
+        <li><a href="#">العروض السنوية</a></li>
+        -->
+      </li>
+      <li><a href="#">المسابقات الشهرية</a> </li>
+      <li><a href="#"><i class="fas fa-user-shield"></i> العميل المميز</a> </li>
+    </ul>
+  </li>
+  <li><a href="#"><i class="fas fa-home"></i> للبيع و اللإيجار وقطع الغيار</a>
+    <ul>
+      <li><a href="#"><i class="fas fa-car"></i> بيع سيارات </a>
+        <li><a href="#"> تأجير سيارات </a>
+          <li><a href="#"><i class="fas fa-tools"></i> قطع الغيار </a>
+
+
+    </ul>
+  </li>
+   <li><a href="#"><i class="fas fa-home"></i> الصفحة الرئيسية</a>
+    <ul>
+      <li><a href="#"> الخدمات المتاحة 
+        
+      </a>
+  </li>
+  <li class="off"><a href="#">كاوتش</a></li>
+</ul>
+   <li><a href="#"><i class="fas fa-sign-in-alt"></i> تسجيل الدخول</a>
+    <ul>
+        <li><a href="#">حساب جديد</a> </li>
+        <li><a href="#">تسجيل الدخول</a> </li>
+    </ul>
+    </li>
+  </ul>
+</div>
+<!--
+    <div class="sig-in">
+      <form>
+        <h2>Sign in</h2>
+        <input type="text" placeholder="Enter user Name" />
+        <input type="password" placeholder="Enter your password" <i class="fa fa-key"></i> />
+        <button class="siginn">Sig in</button>
+      </form>
+    </div>
+    -->
+    
+  </header>
+  <div class="from-box">
+    <h1>تسجيل الدخول</h1>
+    <div class="input-box">
+      <i class="fa fa-envelope"></i>
+      <input type="email" placeholder="Your Email ID">
+    </div>
+    <div class="input-box">
+      <i class="fa fa-lock"></i>
+      <input type="password" placeholder="Your Passwprd" id="mypass">
+      <span class="eye" onclick="myfunction ()">
+      <i id="hide1" class="fa fa-eye"></i>
+      <i id="hide2" class="fa fa-eye-slash"></i>
+    </span>
+    </div>
+    <button type="button" class="login-btn">
+      Sign in
+    </button>
+  </div>
+  <script>
+    function myfunction ()
+    {
+    var x = document.getElementById("mypass");
+    var y = document.getElementById("hide1");
+    var z = document.getElementById("hide2");
+
+    if(x.type === 'password')
+    {
+      x.type = "text";
+      y.style.display = "block";
+      z.style.display = "none";
+    }
+    else
+    {
+      x.type = "password";
+      y.style.display = "none";
+      z.style.display = "block";
+    }
+  }
+  </script>
+
+
+</body>
+
+</html>
